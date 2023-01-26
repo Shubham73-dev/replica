@@ -1,0 +1,43 @@
+nav{
+    padding: 0 !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    .container-fluid{
+        .navbar-brand{
+            img{
+                max-height: 7rem;
+            }
+        }
+
+        #navbarNavDropdown{
+            justify-content: center;
+            .navbar-nav{
+                column-gap: 5rem;
+                font-size: 18px;
+                font-weight: bold;
+                .nav-item{
+                    .socialProfileIcons{
+                        color: #0b4b77;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:992px){
+    #navbarNavDropdown{
+        justify-content: center;
+        .navbar-nav{
+            column-gap: 5rem;
+            font-size: 18px;
+            font-weight: bold;
+            .nav-item{
+                .socialProfileIcons{
+                    display: none;
+                }
+            }
+        }
+    }
+}

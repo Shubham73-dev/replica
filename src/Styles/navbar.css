@@ -1,0 +1,45 @@
+nav {
+  padding: 0 !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav .container-fluid .navbar-brand img {
+  max-height: 7rem;
+}
+
+nav .container-fluid #navbarNavDropdown {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .container-fluid #navbarNavDropdown .navbar-nav {
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav .container-fluid #navbarNavDropdown .navbar-nav .nav-item .socialProfileIcons {
+  color: #0b4b77;
+}
+
+@media (max-width: 992px) {
+  #navbarNavDropdown {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #navbarNavDropdown .navbar-nav {
+    -webkit-column-gap: 5rem;
+            column-gap: 5rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #navbarNavDropdown .navbar-nav .nav-item .socialProfileIcons {
+    display: none;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
